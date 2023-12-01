@@ -24,11 +24,10 @@ export default function Detalle() {
   // Resto de tu lógica aquí
   return (
     <div>
+      <div className={style.infoLibro}>
         <Link className={style.linkback}  to="/BibliotecaReact/">
             🔙
         </Link>
-
-      <div className={style.infoLibro}>
         <h2>{id}</h2>
         <h1>{libroSeleccionado.título}</h1>
 
