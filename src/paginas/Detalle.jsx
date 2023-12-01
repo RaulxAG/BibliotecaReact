@@ -24,7 +24,7 @@ export default function Detalle() {
   // Resto de tu lógica aquí
   return (
     <div>
-        <Link className={style.linkback}  to="/">
+        <Link className={style.linkback}  to="/BibliotecaReact/">
             🔙
         </Link>
 
