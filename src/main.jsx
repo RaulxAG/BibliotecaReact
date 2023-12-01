@@ -19,8 +19,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
         <Routes>
-          <Route exact path="/" element={<TarjetasGrid />} />
-          <Route path="/Detalle/:id" element={<Detalle />} />
+          <Route exact path="/BibliotecaReact/" element={<TarjetasGrid />} />
+          <Route path="/BibliotecaReact/Detalle/:id" element={<Detalle />} />
           {/* <Route path="/ReactApp/filtro/:search?" element={<Filtro />} /> */}
         </Routes>
     </Router>
