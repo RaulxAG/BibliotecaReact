@@ -5,7 +5,7 @@ import style from "./TarjetasGrid.module.css"
 export default function TarjetasGrid() {
     return (
         <section className={style.seccionConFondo}>
-            <h1>📚Biblioteca📚</h1>
+            <h1 className={style.titulo}>📚Biblioteca📚</h1>
             <div className={style.fondoConBlur}></div>
             <ul className={style.lista}>
                 {libros.map((libro) => (
